@@ -1,0 +1,1016 @@
+ /* common color */
+ .highlight {
+     color: #ff0000;
+ }
+
+ .bg-color {
+     background-color: #4BA5A3;
+ }
+
+ .logo {
+     display: flex;
+     justify-content: center;
+     padding-top: 35px;
+     padding-bottom: 25px;
+ }
+
+ .logo img {
+     height: auto;
+     max-width: 100%;
+     border: none;
+     border-radius: 0;
+     -webkit-box-shadow: none;
+     box-shadow: none;
+ }
+
+ .heading-title {
+     padding: 32px;
+     margin: 25px 50px;
+     background-color: #2B8284;
+     border-style: solid;
+     border-width: 2px 2px 2px 2px;
+     border-radius: 5px 5px 5px 5px;
+     box-shadow: 0px 0px 9px 0px rgb(0 0 0 / 92%);
+
+ }
+
+ .heading-title p {
+     color: #FFFFFF;
+     font-family: "Noto Serif Bengali", Sans-serif;
+     font-size: 29px;
+     font-weight: 500;
+     line-height: 38px;
+     text-align: center;
+ }
+
+ .yt-video {
+     display: flex;
+     justify-content: center;
+     padding-top: 4px;
+     padding: 20px;
+ }
+
+ .yt-video iframe {
+     border-radius: 15px;
+     border: 5px solid white;
+ }
+
+ .button-wrapper {
+     display: flex;
+     justify-content: center;
+     padding: 5px;
+ }
+
+ .button-wrapper a {
+     background-color: #000000;
+     color: #FFFFFF;
+     text-decoration: none;
+     padding: 15px 20px;
+     border-radius: 10px;
+     border: 1px solid white;
+     font-size: 27px;
+     box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 50%);
+     font-family: "Galada", Sans-serif;
+     font-weight: 500;
+ }
+
+ .button-wrapper a:hover {
+     background-color: #ff0000;
+     color: #FFFFFF;
+     text-decoration: none;
+     padding: 15px 20px;
+     border-radius: 10px;
+     border: 1px solid white;
+     font-size: 27px;
+     box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 50%);
+     font-family: "Galada", Sans-serif;
+     font-weight: 500;
+ }
+
+ /* why drink coffee */
+ .why-drink {
+     margin-top: 20px;
+ }
+
+ .why-drink h2 {
+     text-align: center;
+     color: #EBF603;
+     font-family: "Noto Serif Bengali", Sans-serif;
+     font-size: 25px;
+     font-weight: 600;
+ }
+
+ .why-drink-section {
+     padding: 29px;
+     margin: 20px 100px;
+     background-color: #fcb900;
+     border: 3px solid #EBF603;
+     border-radius: 10px;
+ }
+
+ .why-drink-section p {
+     color: #000000;
+     font-family: "Noto Serif Bengali", Sans-serif;
+     font-size: 25px;
+     font-weight: 550;
+     line-height: 50px;
+     text-align: center;
+ }
+
+ /* benefits section */
+ .benefits-section {
+     margin: 40px 20px;
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     place-items: center;
+     row-gap: 25px;
+ }
+
+ .benefit-card {
+     background-color: #C5ED5F;
+     height: 350px;
+     width: 400px;
+     border-radius: 25px;
+     box-shadow: 5px 8px 8px 1px rgb(0 0 0 / 50%);
+ }
+
+ .benefit-card:hover {
+     background-color: white;
+     height: 350px;
+     width: 400px;
+     border-radius: 25px;
+     box-shadow: 5px 8px 8px 1px rgb(0 0 0 / 50%);
+ }
+
+ .benefit-card h3 {
+     text-align: center;
+     margin: 30px 0px;
+     font-size: 24px;
+     font-weight: 600;
+ }
+
+ .benefit-card p {
+     text-align: center;
+     padding: 0px 10px;
+     font-size: 19px;
+     line-height: 29px;
+     font-weight: 500;
+ }
+
+ .img-container {
+     display: flex;
+     justify-content: center;
+ }
+
+ .img-container img {
+     height: 120px;
+     width: 120px;
+     margin-top: 10px;
+ }
+
+ /* package section */
+ .package-title {
+     background-color: #000000;
+     margin: 8px 30px;
+     border-radius: 10px;
+     border: 1px solid white;
+     box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 50%);
+ }
+
+ .package-title p {
+     color: #FFFFFF;
+     font-family: "Noto Serif Bengali", Sans-serif;
+     font-size: 26px;
+     font-weight: 600;
+     text-align: center;
+     margin: 0px 25px;
+     padding: 15px 0px;
+ }
+
+ .package-card {
+     background-color: #DDF8CA;
+     height: auto;
+     width: 380px;
+     border-radius: 10px;
+     border: 3px solid #7ad03a;
+     box-shadow: 5px 8px 8px 1px rgb(0 0 0 / 50%);
+ }
+
+ .package-img {
+     display: flex;
+     justify-content: center;
+ }
+
+ .package-img img {
+     height: 200px;
+     width: 300px;
+     margin: 10px 0px;
+ }
+
+ .package-card h2 {
+     text-align: center;
+     margin: 20px 0px;
+ }
+
+ .package-card p {
+     text-align: center;
+     margin: 30px 0px;
+     font-size: 20px;
+     line-height: 30px;
+     font-weight: 500;
+ }
+
+ .package-card h3 {
+     color: #439703;
+     text-align: center;
+     margin: 5px 0;
+ }
+
+ .text-bold {
+     color: #2d6402;
+     font-size: 25px;
+     font-weight: 800;
+ }
+
+ .order-btn {
+     display: flex;
+     justify-content: center;
+     margin: 20px 0;
+ }
+
+ .order-btn a {
+     background-color: #61ce70;
+     color: white;
+     text-decoration: none;
+     padding: 14px 18px;
+     font-size: 20px;
+     border-radius: 6px;
+
+ }
+
+ .package-container {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     place-items: center;
+     margin: 20px 50px;
+ }
+
+ .special-package-card {
+     background-color: #DDF8CA;
+     height: auto;
+     width: 400px;
+     border-radius: 10px;
+     border: 3px solid #7ad03a;
+     box-shadow: 5px 8px 8px 1px rgb(0 0 0 / 50%);
+ }
+
+ .special-package-card img {
+     height: 250px;
+     width: 350px;
+     margin: 10px 0px;
+ }
+
+ .special-package-card h2 {
+     text-align: center;
+     margin: 20px 0px;
+ }
+
+ .special-package-card p {
+     text-align: center;
+     margin: 30px 0px;
+     font-size: 25px;
+     line-height: 32px;
+     font-weight: 500;
+ }
+
+ .special-package-card h3 {
+     color: #439703;
+     text-align: center;
+     margin: 5px 0;
+ }
+
+ /* Eating rules section */
+ .rules-section {
+     padding-top: 20px;
+     padding-bottom: 60px;
+
+ }
+
+ .eating-rules {
+     background-color: #E7DFBE;
+     border: 3px solid #FFD500;
+     border-radius: 8px;
+     padding: 25px 13px;
+     margin: 0 60px;
+ }
+
+ .eating-rules h3 {
+     padding: 10px 0;
+ }
+
+ .eating-rules p {
+     font-size: 22px;
+     line-height: 32px;
+     font-weight: 500;
+ }
+
+ .eating-rules p span {
+     font-size: 20px;
+     font-weight: 600;
+ }
+
+ /* order section */
+ #order {
+     background-color: #E7DFBE;
+ }
+
+ .order-section {
+     background-color: white;
+     margin: 0 90px;
+ }
+
+ .products-content {
+     padding: 30px;
+ }
+
+ .products-content p {
+     padding: 15px 0;
+     text-align: center;
+     color: #ff0000;
+     font-size: 23px;
+     font-weight: bold;
+ }
+
+ .products-section {
+     margin-top: 40px;
+ }
+
+ .card-container {
+     background-color: #CFFFD2;
+     border: 4px dashed black;
+     cursor: pointer;
+     position: relative;
+ }
+
+ .pac-container {
+     display: flex;
+ }
+
+ .pac-container img {
+     height: 100px;
+     width: 100px;
+     margin: 20px 0;
+     padding-right: 10px;
+ }
+
+ .products {
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     gap: 10px;
+     margin-top: 15px;
+ }
+
+ .pac-container p {
+     font-size: 17px;
+     color: #000000;
+     margin-top: 20px;
+ }
+
+ .pac-container p span {
+     font-size: 27px;
+     color: #000000;
+ }
+
+ .hr {
+     display: flex;
+ }
+
+ .radio-btn {
+     margin-left: 20px;
+     margin-right: 10px;
+     width: 17px;
+ }
+
+ .badge {
+     background-color: #f16334;
+     color: white;
+     position: absolute;
+     top: 0;
+     right: 0;
+     padding: 5px 8px;
+ }
+
+ /* billing details */
+ .confirm-order {
+     margin: 0 45px;
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .input-container {
+     display: flex;
+     flex-direction: column;
+     margin-top: 15px;
+ }
+
+ .input-field {
+     width: 400px;
+     height: 45px;
+     border: 3px solid #439703;
+     border-radius: 5px;
+     padding-left: 5px;
+ }
+
+ .billing-title {
+     margin: 15px 0;
+ }
+
+ .input-title {
+     font-size: 18px;
+     padding: 5px 0;
+     font-weight: bold;
+ }
+
+ .order-details {
+     width: 535px;
+ }
+
+ .sub-title {
+     display: flex;
+     justify-content: space-between;
+     border-bottom: 1px dashed grey;
+ }
+
+ .sub-title p {
+     padding-bottom: 5px;
+     font-size: 16px;
+     font-weight: bold;
+ }
+
+ .order-img {
+     width: 350px;
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .order-img img {
+     width: 100px;
+     padding-right: 5px;
+ }
+
+ .sec-row {
+     display: flex;
+     justify-content: space-around;
+     margin-top: 10px;
+     padding-bottom: 10px;
+     border-bottom: 1px dashed grey;
+ }
+
+ .sec-row p {
+     font-size: 17px;
+     font-weight: bold;
+ }
+
+ .third-row {
+     display: flex;
+     justify-content: space-between;
+     padding: 5px 10px;
+     border-bottom: 1px dashed grey;
+ }
+
+ .third-row p {
+     margin-left: -8px;
+     font-size: 17px;
+     font-weight: bold;
+ }
+
+ .order-note {
+     background-color: #d3ced2;
+     padding: 20px 15px;
+ }
+
+ .order-note-title {
+     padding: 15px 0;
+     font-size: 18px;
+     font-weight: bold;
+ }
+
+ .order-description {
+     background-color: white;
+     padding: 10px;
+     line-height: 25px;
+ }
+
+ .place-order {
+     width: 535;
+     display: flex;
+     justify-content: center;
+     padding: 20px 0;
+ }
+
+ .place-order button {
+     color: white;
+     padding: 15px 15px;
+     background-color: #337779;
+     border: none;
+     font-size: 18px;
+     border-radius: 10px;
+     cursor: pointer;
+ }
+
+ /* footer */
+ .footer {
+     display: flex;
+     justify-content: center;
+     background-color: rgb(211, 208, 208);
+     padding: 20px 10px;
+ }
+
+ .footer a {
+     margin-right: 15px;
+     text-decoration: none;
+     color: #000000;
+     padding: 5px;
+ }
+
+ .footer p {
+     padding: 20px 0;
+ }
+
+ .footer-content {
+    margin-top: 50px;
+ }
+
+
+
+
+
+
+
+ /* responsive styles */
+
+ @media only screen and (max-width: 600px) {
+     .heading-title {
+         padding: 10px;
+         margin: 25px 20px;
+     }
+
+     .heading-title p {
+         font-size: 18px;
+         font-weight: 500;
+         line-height: 25px;
+         text-align: center;
+     }
+
+     .video-size {
+         height: 400px;
+     }
+
+     /* why drink */
+     .why-drink-section {
+         padding: 15px;
+         margin: 20px 20px;
+         background-color: #fcb900;
+         border: 3px solid #EBF603;
+         border-radius: 10px;
+     }
+
+     .why-drink-section p {
+         color: #000000;
+         font-family: "Noto Serif Bengali", Sans-serif;
+         font-size: 25px;
+         font-weight: 500;
+         line-height: 40px;
+         text-align: center;
+         text-align: left;
+     }
+
+     /* benefits section */
+     .benefits-section {
+         margin: 40px 13px;
+         display: grid;
+         grid-template-columns: repeat(1, 1fr);
+         place-items: center;
+         row-gap: 25px;
+     }
+
+     .benefit-card {
+         background-color: #C5ED5F;
+         height: 350px;
+         width: 350px;
+         border-radius: 25px;
+         box-shadow: 5px 8px 8px 1px rgb(0 0 0 / 50%);
+     }
+
+     .benefit-card:hover {
+         background-color: white;
+         height: 350px;
+         width: 350px;
+         border-radius: 25px;
+         box-shadow: 5px 8px 8px 1px rgb(0 0 0 / 50%);
+     }
+
+     /* package section */
+     .package-container {
+         display: grid;
+         grid-template-columns: repeat(1, 1fr);
+         place-items: center;
+         margin: 20px 10px;
+         gap: 10px;
+     }
+
+     .package-card {
+         background-color: #DDF8CA;
+         height: auto;
+         width: 350px;
+         border-radius: 10px;
+         border: 3px solid #7ad03a;
+         box-shadow: 5px 8px 8px 1px rgb(0 0 0 / 50%);
+     }
+
+     .special-package-card {
+         background-color: #DDF8CA;
+         height: auto;
+         width: 350px;
+         border-radius: 10px;
+         border: 3px solid #7ad03a;
+         box-shadow: 5px 8px 8px 1px rgb(0 0 0 / 50%);
+     }
+
+     .special-package-card img {
+         height: 200px;
+         width: 300px;
+         margin: 10px 0px;
+
+     }
+
+     .package-title {
+         background-color: #000000;
+         margin: 8px 10px;
+         border-radius: 10px;
+         border: 1px solid white;
+         box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 50%);
+     }
+
+     /* eating rules */
+     .eating-rules {
+         background-color: #E7DFBE;
+         border: 3px solid #FFD500;
+         border-radius: 8px;
+         padding: 25px 13px;
+         margin: 0 10px;
+     }
+
+     /* order section */
+     .order-section {
+         background-color: white;
+         margin: 0 10px;
+     }
+
+     .products {
+         display: grid;
+         grid-template-columns: repeat(1, 1fr);
+         gap: 10px;
+         margin-top: 15px;
+     }
+
+     .products-content {
+         padding: 10px;
+     }
+
+     .radio-btn {
+         margin-left: 10px;
+         margin-right: 10px;
+         width: 17px;
+     }
+
+     .pac-container img {
+         height: 100px;
+         width: 100px;
+         margin: 20px 0;
+         padding-right: 5px;
+     }
+
+     .confirm-order {
+         margin: 0 10px;
+         display: flex;
+         flex-direction: column;
+     }
+
+     .input-field {
+         width: 330px;
+         height: 45px;
+         border: 3px solid #439703;
+         border-radius: 5px;
+         padding-left: 5px;
+     }
+
+     .order-details {
+         width: 335px;
+     }
+
+     .order-img img {
+         width: 90px;
+         padding-right: 5px;
+     }
+     /* footer */
+     .footer a {
+        margin-right: 5px;
+        text-decoration: none;
+        color: #000000;
+        padding: 5px;
+    }
+ }
+
+ @media only screen and (min-width: 600px) and (max-width: 768px) {
+     .heading-title {
+         padding: 15px;
+         margin: 25px 20px;
+     }
+
+     .heading-title p {
+         font-size: 30px;
+         font-weight: 500;
+         line-height: 38px;
+         text-align: center;
+     }
+
+     /* why drink */
+     .why-drink-section {
+         padding: 15px;
+         margin: 20px 20px;
+         background-color: #fcb900;
+         border: 3px solid #EBF603;
+         border-radius: 10px;
+     }
+
+     .why-drink-section p {
+         color: #000000;
+         font-family: "Noto Serif Bengali", Sans-serif;
+         font-size: 30px;
+         font-weight: 550;
+         line-height: 50px;
+         text-align: center;
+         text-align: left;
+     }
+
+     /* package section */
+     .package-container {
+         display: grid;
+         grid-template-columns: repeat(2, 1fr);
+         place-items: center;
+         margin: 20px 10px;
+         gap: 10px;
+     }
+
+     .package-card {
+         background-color: #DDF8CA;
+         height: auto;
+         width: 350px;
+         border-radius: 10px;
+         border: 3px solid #7ad03a;
+         box-shadow: 5px 8px 8px 1px rgb(0 0 0 / 50%);
+     }
+
+     .special-package-card {
+         background-color: #DDF8CA;
+         height: auto;
+         width: 350px;
+         border-radius: 10px;
+         border: 3px solid #7ad03a;
+         box-shadow: 5px 8px 8px 1px rgb(0 0 0 / 50%);
+     }
+
+     .special-package-card img {
+         height: 200px;
+         width: 300px;
+         margin: 10px 0px;
+
+     }
+
+     .package-title {
+         background-color: #000000;
+         margin: 8px 10px;
+         border-radius: 10px;
+         border: 1px solid white;
+         box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 50%);
+     }
+
+     /* eating rules */
+     .eating-rules {
+         background-color: #E7DFBE;
+         border: 3px solid #FFD500;
+         border-radius: 8px;
+         padding: 25px 13px;
+         margin: 0 15px;
+     }
+
+     .confirm-order {
+         margin: 0 60px;
+         display: flex;
+         flex-direction: column;
+     }
+
+     .input-field {
+         width: 500px;
+         height: 45px;
+         border: 3px solid #439703;
+         border-radius: 5px;
+         padding-left: 5px;
+     }
+
+ }
+
+ @media only screen and (min-width: 768px) and (max-width: 992px) {
+     .heading-title {
+         padding: 15px;
+         margin: 25px 20px;
+     }
+
+     .heading-title p {
+         font-size: 30px;
+         font-weight: 500;
+         line-height: 45px;
+         text-align: center;
+     }
+
+     /* benefits section */
+     .benefits-section {
+         margin: 40px 15px;
+         display: grid;
+         grid-template-columns: repeat(2, 1fr);
+         place-items: center;
+         row-gap: 25px;
+     }
+
+     .benefit-card {
+         background-color: #C5ED5F;
+         height: 350px;
+         width: 360px;
+         border-radius: 25px;
+         box-shadow: 5px 8px 8px 1px rgb(0 0 0 / 50%);
+     }
+
+     .benefit-card:hover {
+         background-color: white;
+         height: 350px;
+         width: 360px;
+         border-radius: 25px;
+         box-shadow: 5px 8px 8px 1px rgb(0 0 0 / 50%);
+     }
+
+     /* package section */
+     .package-container {
+         display: grid;
+         grid-template-columns: repeat(2, 1fr);
+         place-items: center;
+         margin: 20px 10px;
+         gap: 10px;
+     }
+
+     .package-card {
+         background-color: #DDF8CA;
+         height: auto;
+         width: 360px;
+         border-radius: 10px;
+         border: 3px solid #7ad03a;
+         box-shadow: 5px 8px 8px 1px rgb(0 0 0 / 50%);
+     }
+
+     .special-package-card {
+         background-color: #DDF8CA;
+         height: auto;
+         width: 360px;
+         border-radius: 10px;
+         border: 3px solid #7ad03a;
+         box-shadow: 5px 8px 8px 1px rgb(0 0 0 / 50%);
+     }
+
+     .special-package-card img {
+         height: 200px;
+         width: 300px;
+         margin: 10px 0px;
+
+     }
+
+     .package-title {
+         background-color: #000000;
+         margin: 8px 10px;
+         border-radius: 10px;
+         border: 1px solid white;
+         box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 50%);
+     }
+
+     /* eating rules */
+     .eating-rules {
+         background-color: #E7DFBE;
+         border: 3px solid #FFD500;
+         border-radius: 8px;
+         padding: 25px 13px;
+         margin: 0 15px;
+     }
+
+     /* order section */
+     .order-section {
+         background-color: white;
+         margin: 0 10px;
+     }
+
+     .confirm-order {
+         margin: 0 60px;
+         display: flex;
+         flex-direction: column;
+     }
+
+     .input-field {
+         width: 500px;
+         height: 45px;
+         border: 3px solid #439703;
+         border-radius: 5px;
+         padding-left: 5px;
+     }
+ }
+
+ @media only screen and (min-width: 993px) and (max-width: 1200px) {
+     .heading-title {
+         padding: 15px;
+         margin: 25px 20px;
+     }
+
+     .heading-title p {
+         font-size: 30px;
+         font-weight: 500;
+         line-height: 50px;
+         text-align: center;
+     }
+
+     /*benefits section  */
+     .benefit-card {
+         background-color: #C5ED5F;
+         height: 370px;
+         width: 320px;
+         border-radius: 25px;
+         box-shadow: 5px 8px 8px 1px rgb(0 0 0 / 50%);
+     }
+
+     .benefit-card:hover {
+         background-color: white;
+         height: 370px;
+         width: 320px;
+         border-radius: 25px;
+         box-shadow: 5px 8px 8px 1px rgb(0 0 0 / 50%);
+     }
+
+     /* package section */
+     .package-card {
+         background-color: #DDF8CA;
+         height: auto;
+         width: 320px;
+         border-radius: 10px;
+         border: 3px solid #7ad03a;
+         box-shadow: 5px 8px 8px 1px rgb(0 0 0 / 50%);
+     }
+
+     .special-package-card {
+         background-color: #DDF8CA;
+         height: auto;
+         width: 320px;
+         border-radius: 10px;
+         border: 3px solid #7ad03a;
+         box-shadow: 5px 8px 8px 1px rgb(0 0 0 / 50%);
+     }
+
+     .special-package-card img {
+         height: 200px;
+         width: 300px;
+         margin: 10px 0px;
+
+     }
+
+     .package-container {
+         display: grid;
+         grid-template-columns: repeat(3, 1fr);
+         place-items: center;
+         margin: 20px 10px;
+         gap: 10px;
+     }
+
+     /* eating rules */
+     .eating-rules {
+         background-color: #E7DFBE;
+         border: 3px solid #FFD500;
+         border-radius: 8px;
+         padding: 25px 13px;
+         margin: 0 15px;
+     }
+
+     /* order section */
+     .order-section {
+         background-color: white;
+         margin: 0 15px;
+     }
+
+     .confirm-order {
+         margin: 0 10px;
+     }
+ }
